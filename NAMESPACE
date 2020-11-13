@@ -3,6 +3,5 @@
 export(geom_macc)
 export(macc_prep)
 import(dplyr)
-importFrom(ggplot2,aes)
-importFrom(ggplot2,geom_rect)
+import(ggplot2)
 importFrom(rlang,abort)
