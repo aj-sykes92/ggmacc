@@ -10,13 +10,6 @@
 #' @importFrom rlang abort
 #' @export
 macc_prep <- function(data, mac, abatement) {
-  if (is.null(data))
-    abort("No data to prepare.")
-  if (is.null(mac))
-    abort("No marginal abatement cost variable specified.")
-  if (is.null(abatement))
-    abort("No abatement variable specified.")
-
   data %>%
     arrange({{ mac }}) %>%
     mutate(xmax = cumsum({{ abatement }}),
@@ -24,5 +17,3 @@ macc_prep <- function(data, mac, abatement) {
            ymin = ifelse({{ mac }} < 0, {{ mac }}, 0),
            ymax = ifelse({{ mac }} > 0, {{ mac }}, 0))
 }
-
-

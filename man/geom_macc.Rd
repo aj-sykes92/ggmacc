@@ -10,9 +10,6 @@ geom_macc(fill = NULL, ...)
 \item{fill}{An optional parameter to specify fill groupings to be used by `geom_macc`.}
 
 \item{...}{Any additional arguments to pass to `geom_rect`.}
-
-\item{alpha}{An optional parameter to specify alpha (transparency) values to be used by
-`geom_macc`.}
 }
 \description{
 A `ggplot2` geom with aesthetic mappings linked to the output of `macc_prep`. Add to
