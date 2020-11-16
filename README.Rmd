@@ -61,6 +61,7 @@ full_macc +
        ) +
   theme_classic()
 ```
+
 > Thanks to the very cool `Manu` package for providing this colour palette --- find it at <https://github.com/G-Thomson/Manu>.
 
 ## Usage --- base functions

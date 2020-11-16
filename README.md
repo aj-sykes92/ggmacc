@@ -79,8 +79,9 @@ full_macc +
 ```
 
 <img src="README_files/figure-gfm/full-macc-refine-1.png" style="display: block; margin: auto;" />
-\> Thanks to the very cool `Manu` package for providing this colour
-palette — find it at <https://github.com/G-Thomson/Manu>.
+
+> Thanks to the very cool `Manu` package for providing this colour
+> palette — find it at <https://github.com/G-Thomson/Manu>.
 
 ## Usage — base functions
 
@@ -100,9 +101,14 @@ small_example %>%
 
 <img src="README_files/figure-gfm/base-fun-demo-1.png" style="display: block; margin: auto;" />
 
-This can be augmented and refined in the same way as any other `ggplot`
-object. This disaggregated syntax also allows the user opportunity to
-modify the base data following `macc_prep` if desired.
+It’s worth noting this is a slight perversion of the `ggplot2`
+grammar-of-graphics philosophy in that `geom_macc` does not exist
+separately from its aesthetics — the `aes()` arguments are tied up in
+the function call — however, for flexibility and ease of use, this
+seemed like the best approach. The result can be augmented and refined
+in the same way as any other `ggplot` object. This disaggregated syntax
+also allows the user opportunity to modify the base data following
+`macc_prep` if desired.
 
 ## Acknowledgements
 
