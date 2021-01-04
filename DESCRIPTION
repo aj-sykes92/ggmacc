@@ -1,7 +1,7 @@
 Package: ggmacc
 Type: Package
 Title: Easy marginal abatement cost curves with ggplot2
-Version: 0.1.0
+Version: 1.0.0
 Author: Dr Alasdair Sykes
 Maintainer: Dr Alasdair Sykes <alasdair.sykes@gmail.com>
 Description: This package brings together some simple functions to allow easy plotting of marginal abatement cost curves within the ggplot2 environment.
