@@ -19,7 +19,14 @@ which make use of the `ggplot2` environment (and specifically
 of fuss for the user.
 
 This package was imagined and written by Dr Alasdair Sykes
-([@alasdair\_sykes](https://twitter.com/alasdair_sykes)).
+([@alasdair\_sykes](https://twitter.com/alasdair_sykes)). If you use
+this package in your work, please cite it as:
+
+Sykes, A. J. (2020) `ggmacc`: Easy marginal abatement cost curves with
+ggplot2. Version 1.0.0. Available at
+<https://github.com/aj-sykes92/ggmacc>.
+
+[![DOI](https://zenodo.org/badge/312662786.svg)](https://zenodo.org/badge/latestdoi/312662786)
 
 ## Installation
 

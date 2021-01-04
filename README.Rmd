@@ -17,7 +17,11 @@ Marginal abatement cost curves (MACCs) are a data visualisation and decision too
 
 In pure data visualisation terms, MACCs are a little special and so most off-the-shelf graphing packages (e.g. MS Excel) struggle to produce them. This small and simple package brings together a group of functions which make use of the  `ggplot2` environment (and specifically `geom_rect`) to draw simple, clear and attractive MACCs with the minimum of fuss for the user.
 
-This package was imagined and written by Dr Alasdair Sykes ([\@alasdair_sykes](https://twitter.com/alasdair_sykes)).
+This package was imagined and written by Dr Alasdair Sykes ([\@alasdair_sykes](https://twitter.com/alasdair_sykes)). If you use this package in your work, please cite it as:
+
+Sykes, A. J. (2020) `ggmacc`: Easy marginal abatement cost curves with ggplot2. Version `r packageVersion("ggmacc")`. Available at https://github.com/aj-sykes92/ggmacc.
+
+[![DOI](https://zenodo.org/badge/312662786.svg)](https://zenodo.org/badge/latestdoi/312662786)
 
 ## Installation
 
